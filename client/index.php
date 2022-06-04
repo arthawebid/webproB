@@ -8,11 +8,11 @@ if(isset($_GET["p"])){
                 $TPage = "Menambahkan data Mahasiswa";  
             }
             if($_GET["sp"]=="edit"){
-                $pg="";     
+                $pg="pagemhsedit.php";     
                 $TPage = "Edit Data Mahasiswa";
             }
             if($_GET["sp"]=="dele"){
-                $pg="";     
+                $pg="pagemhsdele.php";     
                 $TPage="Hapus Data Mahasiswa";
             }
         }else{
